@@ -2,7 +2,7 @@ from AimBot import AimBot
 import multiprocessing
 import time
 from mouse_driver.MouseMove import mouse_move
-from pynput.mouse import Button, Listener, Controller
+from pynput.mouse import Button, Listener, Controller # type: ignore
 
 
 class CSGOAimBot(AimBot):
